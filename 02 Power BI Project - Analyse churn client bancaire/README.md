@@ -1,24 +1,24 @@
 # 🏦 Power BI - Analyse du Churn Client Bancaire
 
-## 🎯 Objectif du projet
+## Objectif du projet
 Ce projet vise à analyser les **facteurs de départ des clients d'une banque (churn)** à l’aide d’un **dashboard interactif Power BI**.  
 L’objectif est d’aider les équipes marketing et relation client à **identifier les segments à risque** et à **anticiper les pertes de clients** grâce à une analyse visuelle claire et stratégique.
 
 ---
 
-## 📂 Données utilisées
+## Données utilisées
 Dataset : *Bank Customer Churn Prediction* (Kaggle)  
 Lien : [https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers](https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers)
 
 Le jeu de données contient des informations sur les clients d’une banque :  
-- 👤 Données démographiques : `Age`, `Gender`, `Geography`  
-- 💰 Données financières : `CreditScore`, `Balance`, `EstimatedSalary`  
-- 🏦 Comportement bancaire : `NumOfProducts`, `HasCrCard`, `IsActiveMember`, `Tenure`  
-- 🎯 Cible : `Exited` (1 = client parti, 0 = client resté)
+- Données démographiques : `Age`, `Gender`, `Geography`  
+- Données financières : `CreditScore`, `Balance`, `EstimatedSalary`  
+- Comportement bancaire : `NumOfProducts`, `HasCrCard`, `IsActiveMember`, `Tenure`  
+- Cible : `Exited` (1 = client parti, 0 = client resté)
 
 ---
 
-## ⚙️ Étapes réalisées dans Power BI
+## Étapes réalisées dans Power BI
 1. **Import et nettoyage des données** via Power Query :  
    - Suppression des colonnes non pertinentes (`RowNumber`, `CustomerId`, `Surname`)  
    - Typage correct des champs (numériques, booléens, texte)  
@@ -33,7 +33,7 @@ Le jeu de données contient des informations sur les clients d’une banque :
 
 ---
 
-## 📊 Aperçu des visualisations
+## Aperçu des visualisations
 Le dashboard Power BI permet de :
 - Identifier les **profils clients les plus susceptibles de quitter la banque**  
 - Visualiser les **tendances du churn par segment démographique et financier**  
