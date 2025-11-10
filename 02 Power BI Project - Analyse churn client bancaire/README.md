@@ -1,4 +1,4 @@
-# 🏦 Power BI - Analyse du Churn Client Bancaire
+# 🏦 02 Power BI Project - Analyse du Churn Client Bancaire
 
 ## Objectif du projet
 Ce projet vise à analyser les **facteurs de départ des clients d'une banque (churn)** à l’aide d’un **dashboard interactif Power BI**.  
