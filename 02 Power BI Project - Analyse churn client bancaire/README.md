@@ -40,11 +40,11 @@ Le dashboard Power BI permet de :
 - Comprendre les **facteurs influençant la fidélité client**  
 
 **Visuels principaux :**
-- 🔹 KPI Cards : Taux de churn, Total clients  
-- 🔹 Histogramme : Répartition du churn par âge  
-- 🔹 Bar Chart : Churn selon le nombre de produits  
-- 🔹 Donut Chart : Répartition du churn par genre  
-- 🔹 Heatmap : Score de crédit vs ancienneté  
+- KPI Cards : Taux de churn, Total clients
+- Histogramme : Répartition du churn par âge  
+- Bar Chart : Churn selon le nombre de produits  
+- Donut Chart : Répartition du churn par genre  
+- Heatmap : Score de crédit vs ancienneté  
 
 ---
 
@@ -62,7 +62,7 @@ Le dashboard Power BI permet de :
 
 ---
 
-## 📁 Contenu du repository
+## Contenu du repository
 - `BankChurn.pbix` → fichier Power BI du projet  
 - `README.md` → documentation détaillée  
 - (Optionnel) `BankChurn.csv` → jeu de données  
