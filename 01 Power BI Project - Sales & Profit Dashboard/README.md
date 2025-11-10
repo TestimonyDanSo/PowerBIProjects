@@ -45,9 +45,11 @@ Ce tableau de bord peut être utilisé par une **équipe de direction** pour :
 
 ## Fichiers du repo
 - `Financial Sample.xlsx` → jeu de données  
-- `SalesDashboard.pbix` → fichier Power BI  
+- `Projet_Test_1_Rapport_de_Ventes` → fichier Power BI  
 - `README.md` → documentation du projet  
 
 ---
 
-Auteur : *Danielle LOUMDOUOBE NOUETSA*
+**Auteur** : *Danielle LOUMDOUOBE NOUETSA*  
+*Étudiante en Master MIAGE – Spécialisation Data & Business Intelligence*  
+*Aspirante Data Analyst/Data Scientist*
