@@ -63,9 +63,9 @@ Le dashboard Power BI permet de :
 ---
 
 ## Contenu du repository
-- `BankChurn.pbix` → fichier Power BI du projet  
+- `02 Power BI Project - Analyse churn client bancaire` → fichier Power BI du projet  
 - `README.md` → documentation détaillée  
-- (Optionnel) `BankChurn.csv` → jeu de données  
+- `Churn.csv` → jeu de données  
 
 ---
 
