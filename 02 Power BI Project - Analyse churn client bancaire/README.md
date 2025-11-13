@@ -20,8 +20,7 @@ Le jeu de données contient des informations sur les clients d’une banque :
 
 ## Étapes réalisées dans Power BI
 1. **Import et nettoyage des données** via Power Query :  
-   - Suppression des colonnes non pertinentes (`RowNumber`, `CustomerId`, `Surname`)  
-   - Typage correct des champs (numériques, booléens, texte)  
+   Typage correct des champs (numériques, booléens, texte)  
 2. **Création de mesures DAX clés** :  
    - Taux de churn (%)  
    - Nombre total de clients  
