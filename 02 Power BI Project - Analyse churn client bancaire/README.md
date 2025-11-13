@@ -20,14 +20,15 @@ Le jeu de données contient des informations sur les clients d’une banque :
 
 ## Étapes réalisées dans Power BI
 1. **Import et nettoyage des données** via Power Query :  
-   - Suppression des colonnes non pertinentes (`RowNumber`, `CustomerId`, `Surname`)  
-   - Typage correct des champs (numériques, booléens, texte)  
+   Typage correct des champs (numériques, booléens, texte)  
 2. **Création de mesures DAX clés** :  
-   - Taux de churn (%)  
-   - Nombre total de clients  
-   - Solde et âge moyen des clients churners  
+   - Somme desclients partis
+   - Somme des clients ayant au moins une carte de crédit 
+   - Total des clients
+   - Total des membres actifs
+   - Solde, âge, score de crédit et salaire moyen des clients  
 3. **Conception du dashboard** :
-   - Section KPI : Taux de churn, Nombre de clients, Clients actifs  
+   - Section KPI : Nombre de Exited (clients partis), Nombre de clients, Clients actifs  
    - Analyse démographique : Churn par âge, genre, ancienneté  
    - Analyse financière : Churn par solde, score de crédit, salaire estimé  
 
@@ -40,11 +41,10 @@ Le dashboard Power BI permet de :
 - Comprendre les **facteurs influençant la fidélité client**  
 
 **Visuels principaux :**
-- KPI Cards : Taux de churn, Total clients
+- KPI Cards : Total exited, Total clients
 - Histogramme : Répartition du churn par âge  
 - Bar Chart : Churn selon le nombre de produits  
 - Donut Chart : Répartition du churn par genre  
-- Heatmap : Score de crédit vs ancienneté  
 
 ---
 
@@ -63,9 +63,10 @@ Le dashboard Power BI permet de :
 ---
 
 ## Contenu du repository
-- `02 Power BI Project - Analyse churn client bancaire` → fichier Power BI du projet  
+- `02 Power BI Project - Analyse churn client bancaire.pbix` → fichier Power BI du projet  
 - `README.md` → documentation détaillée  
-- `Churn.csv` → jeu de données  
+- `churn.csv` → jeu de données
+- `Description_du_dataset.docx` → description détaillée des attributs du datasets
 
 ---
 
